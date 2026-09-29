@@ -271,9 +271,10 @@ index 000000000000..8da2a49ef54a
 +#include "imx6ul-evk-btwifi-m2-oob.dtsi"
 +
 +&fec2 {
-+	status="disabled";
-+ /delete-property/ phy-handle;
-+ /delete-node/ mdio;
++   status="disabled";
++   /delete-property/ phy-handle;
++   /delete-node/ mdio;
++};
 +
 +&fec1 {
 +	mdio {
